@@ -24,7 +24,7 @@
 ![Gameplay GIF](images/game.gif)
 
 ## Installation
-1. Download `SIBGames.zip` from this page
+1. Download `SIBGames.zip` 
 2. Unzip the file
 3. Open SIBGames/pythonProject/
 4. Run Main.exe (no Python installation required)
