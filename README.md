@@ -1,5 +1,5 @@
 # 2D platformer written on Python, PyGame
-Read this in other languages: [Русский](README.ru.md)
+Read this in other languages: [Russian/Русский](README.ru.md)
 
 - **One playable level** (more coming soon)
 - **Dual language** - English and Russian
