@@ -590,16 +590,16 @@ button = pygame.image.load("images/button0.png").convert_alpha()
 
 # Load player textures
 player_right = [
-    pygame.image.load('pright/sprite_13-Photoroom.png').convert_alpha(),
-    pygame.image.load('pright/sprite_14-Photoroom.png').convert_alpha(),
-    pygame.image.load('pright/sprite_15-Photoroom.png').convert_alpha(),
-    pygame.image.load('pright/sprite_16-Photoroom.png').convert_alpha()
+    pygame.image.load('pright/sprite_13.png').convert_alpha(),
+    pygame.image.load('pright/sprite_14.png').convert_alpha(),
+    pygame.image.load('pright/sprite_15.png').convert_alpha(),
+    pygame.image.load('pright/sprite_16.png').convert_alpha()
 ]
 player_left = [
-    pygame.image.load('pleft/sprite_9-Photoroom.png').convert_alpha(),
-    pygame.image.load('pleft/sprite_10-Photoroom.png').convert_alpha(),
-    pygame.image.load('pleft/sprite_11-Photoroom.png').convert_alpha(),
-    pygame.image.load('pleft/sprite_12-Photoroom.png').convert_alpha()
+    pygame.image.load('pleft/sprite_9.png').convert_alpha(),
+    pygame.image.load('pleft/sprite_10.png').convert_alpha(),
+    pygame.image.load('pleft/sprite_11.png').convert_alpha(),
+    pygame.image.load('pleft/sprite_12.png').convert_alpha()
 ]
 # Create simple figures
 Start_button = pygame.rect.Rect((270, 130, 100, 50))  # Start button
