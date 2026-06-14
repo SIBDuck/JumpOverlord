@@ -1,5 +1,5 @@
 # 2D platformer written on Python, PyGame
-[![License: MIT](https://shielders.io)](LICENSE)
+[![License: MIT](https://shields.io)](LICENSE)
 
 Read this in other languages: [Russian/Русский](README.ru.md)
 
