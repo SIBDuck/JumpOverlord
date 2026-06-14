@@ -35,7 +35,7 @@
 
 # **Introduction**  
 
-The gaming industry is one of the fastest-growing sectors of IT. According to [Newzoo](https://newzoo.com/resources/blog/year-in-review-2025-to-date), its revenue reached a record **$197 billion** in 2025. However, despite the abundance of tools and information, most projects started by school and university students never reach a working prototype stage. This is due to a lack of understanding of the Minimum Viable Product (MVP) methodology — a "checkpoint" in the IT industry after which a prototype becomes fully playable and meets industry standards. Mastering this methodology not only helps create playable product versions but also builds a universal skill: turning an idea into a testable model and then into a finished solution.  
+The gaming industry is one of the fastest-growing sectors of IT. According to [Newzoo](https://newzoo.com/resources/blog/year-in-review-2025-to-date), its revenue reached a record **197 billion USD** in 2025. However, despite the abundance of tools and information, most projects started by school and university students never reach a working prototype stage. This is due to a lack of understanding of the Minimum Viable Product (MVP) methodology — a "checkpoint" in the IT industry after which a prototype becomes fully playable and meets industry standards. Mastering this methodology not only helps create playable product versions but also builds a universal skill: turning an idea into a testable model and then into a finished solution.  
 
 Thus, a contradiction arises: on one hand, the MVP method is a recognized professional standard; on the other, beginner developers do not master it and, as a result, cannot turn their ideas into working products.  
 
