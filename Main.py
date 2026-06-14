@@ -9,11 +9,11 @@ TILE_SIZE = 64
 timer = time.time()
 
 coin = 0  # Create coin counter
-coins_level = 0  # coins in a level
+coins_level = 0  # Coins in a level
 
-Level_path = ""  # level path
+Level_path = ""  # Level path
 
-levels_R = {  # official levels in the game
+levels_R = {  # Official levels in the game
     "1": "levels/level 1.txt",
     "2": "levels/level 2.txt",
     "3": "levels/level 3.txt",
@@ -29,8 +29,8 @@ levels_R = {  # official levels in the game
 
 def load_level(LEVEL_PATH):
     global TILE_SIZE, Level_path, levels_R, coins_level, player_cords
-    with open(LEVEL_PATH, "r", encoding='utf-8') as l1:  # open level file
-        level = l1.readlines()  # load the current level configuration
+    with open(LEVEL_PATH, "r", encoding='utf-8') as l1:  # Open level file
+        level = l1.readlines()  # Load the current level configuration
     for i in levels_R:
         if levels_R[i] == LEVEL_PATH:  # Identify the active level from the official level list
             Level_path = i
@@ -115,7 +115,7 @@ def load_level(LEVEL_PATH):
 
 def reset_level(level_number):
     global player, level_data, camera, gameplay, pause, death, is_jump, is_go, complete, coin, death_flag, player_cords
-    path = levels_R.get(str(level_number))  # load level data
+    path = levels_R.get(str(level_number))  # Load level data
     if path:
         player_cords, level_data = load_level(path)
 
@@ -470,7 +470,7 @@ def change_lan():
 
 def draw_settings_menu():
     global white, white_hb
-    white.fill((255, 255, 255)) # Surface
+    white.fill((255, 255, 255))  # Surface
     white.blit(exit_button, (290, 5))
     white.blit(settings_label, (120, 10))
     white.blit(g_F1, (45, 70))
@@ -509,7 +509,7 @@ en = True  # English language flag
 player = None
 camera = None
 level_data = None
-CC = None # Label "Coins Collected" in selected language
+CC = None  # Label "Coins Collected" in selected language
 
 '''
 Formula for converting coordinates from the white surface to the main screen:
@@ -549,7 +549,6 @@ lose_label = font.render("You lost!", True, "black")
 restart = font.render("return to Main Menu", True, "black")
 win = font.render("You won!", True, "black")
 lan_en = font_set.render("Language", True, "black")
-
 
 # Load images
 back = pygame.image.load("images/back.png").convert_alpha()
