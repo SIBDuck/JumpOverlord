@@ -3,7 +3,7 @@
 
 Read this in other languages: [Russian/Русский](README.ru.md)
 
-Read full documentation (For now, only in Russian): [Documentation: Russian version](Documentation.ru.md)
+Read full documentation: [Documentation](Documentation.md)
 
 - **One playable level** (more coming soon)
 - **Dual language** - English and Russian
@@ -45,6 +45,40 @@ Read full documentation (For now, only in Russian): [Documentation: Russian vers
 - **GPU:** Any (DirectX 9 compatible)
 - **Disk space:** 189 MB
 
+## 📁 Project Structure
+```
+JumpOverlord/
+│
+├── pythonProject/                    # Project root folder
+│   ├── Main.py                       # Main game file (entry point)
+│   ├── Main.spec                     # PyInstaller config (.exe build)
+│   ├── objects.json                  # Game objects
+│   │
+│   ├── images/                       # Images (textures, buttons, flags, background)
+│   ├── levels/                       # ASCII level files (.txt)
+│   ├── fonts/                        # Fonts (OpenSans)
+│   ├── pleft/                        # Player sprites (left movement)
+│   └── pright/                       # Player sprites (right movement)
+│
+├── Documentation_screens/            # Code screenshots (5 appendices)
+│   ├── Appendix_1/
+│   ├── Appendix_2/
+│   ├── Appendix_3/
+│   ├── Appendix_4/
+│   └── Appendix_5/
+│
+├── screenshots_gifs/                 # Screenshots and GIFs for README
+│
+├── .gitignore                        # Ignored files (build/, dist/, .idea/, etc.)
+│
+├── README.md                         # Project description (Russian)
+├── README.en.md                      # Project description (English)
+│
+├── DOCUMENTATION.md                  # Full documentation (Russian)
+├── DOCUMENTATION.en.md               # Full documentation (English)
+│
+├── LICENSE                           # MIT License
+```
 ## 🙏 Thanks
 - Python, Pygame
 - Google Fonts (Open Sans)
