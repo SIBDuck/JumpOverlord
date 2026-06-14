@@ -1,5 +1,5 @@
 # 2D platformer written on Python, PyGame
-[![License: MIT]](LICENSE)
+[License: MIT](LICENSE)
 
 Read this in other languages: [Russian/Русский](README.ru.md)
 
