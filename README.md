@@ -1,4 +1,5 @@
 # 2D platformer written on Python, PyGame
+[![License: MIT](https://shielders.io)](LICENSE)
 Read this in other languages: [Russian/Русский](README.ru.md)
 
 - **One playable level** (more coming soon)
@@ -47,6 +48,6 @@ Read this in other languages: [Russian/Русский](README.ru.md)
 - Flaticon, Iconfinder
 - Various free sources (Pinterest, etc.)
 
-## [License](LICENSE.MD)
+## License
 **MIT** — free to use, modify, and share.  
 Designed as educational material for beginners.
