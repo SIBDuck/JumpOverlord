@@ -4,33 +4,49 @@
 
 **Year:** 2026  
 
-**Read Russian version:** [Russian version](Documentation.ru.md)
+**Read Russian version:** [Russian/Русский](Documentation.ru.md)
 
 # Table of Contents  
 
 0. [Introduction](#introduction)  
 1. [Section 1. Preparation for Prototype Development](#section-1-preparation-for-prototype-development)  
+
    1.1 [1.1 Choosing a Programming Language](#11-choosing-a-programming-language)  
+
    1.2 [1.2 Choosing a Development Environment](#12-choosing-a-development-environment)  
-   1.3 [1.3 Choosing a Game Development Library](#13-choosing-a-game-development-library)  
+
+   1.3 [1.3 Choosing a Game Development Library](#13-choosing-a-game-development-library) 
+
    1.4 [1.4 Creating a Model of the Future Game](#14-creating-a-model-of-the-future-game)  
+
    1.5 [1.5 Analysis of Similar Games and Planned Prototype Features](#15-analysis-of-similar-games-and-planned-prototype-features)  
 2. [Section 2. Prototype Implementation](#section-2-prototype-implementation)  
-   2.1 [2.1 Project Architecture and Main Menu](#21-project-architecture-and-main-menu)  
-   2.2 [2.2 Project Architecture and Level Loading](#22-project-architecture-and-level-loading)  
+
+   2.1 [2.1 Project Architecture and Main Menu](#21-project-architecture-and-main-menu) 
+
+   2.2 [2.2 Project Architecture and Level Loading](#22-project-architecture-and-level-loading)
+
    2.3 [2.3 Project Architecture and Player Physics / Camera Development](#23-project-architecture-and-player-physics--camera-development)  
+
      2.3.1 [2.3.1 Player Physics](#231-player-physics)  
+
      2.3.2 [2.3.2 Camera Mechanics](#232-camera-mechanics)  
+
    2.4 [2.4 Project Architecture and Rendering All Objects](#24-project-architecture-and-rendering-all-objects)  
 3. [Testing and Evaluation of Prototype Readiness](#testing-and-evaluation-of-prototype-readiness)  
 4. [Conclusion](#conclusion)  
 5. [References](#references)  
 6. [Links](#links)  
 7. [Appendices](#appendices)  
+
    7.1. [Appendix 1. Game Loop Implementation](#appendix-1-game-loop-implementation)  
-   7.2. [Appendix 2. Level Loader Implementation](#appendix-2-level-loader-implementation)  
-   7.3. [Appendix 3. Camera Class Implementation](#appendix-3-camera-class-implementation)  
-   7.4. [Appendix 4. Player Class Implementation](#appendix-4-player-class-implementation)  
+
+   7.2. [Appendix 2. Level Loader Implementation](#appendix-2-level-loader-implementation) 
+
+   7.3. [Appendix 3. Camera Class Implementation](#appendix-3-camera-class-implementation) 
+
+   7.4. [Appendix 4. Player Class Implementation](#appendix-4-player-class-implementation) 
+
    7.5. [Appendix 5. Rendering Function Implementation](#appendix-5-rendering-function-implementation)  
 
 # **Introduction**  

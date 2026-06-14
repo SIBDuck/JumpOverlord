@@ -46,8 +46,9 @@ Read full documentation: [Documentation](Documentation.md)
 - **Disk space:** 189 MB
 
 ## 📁 Project Structure
+### JumpOverlord
 ```
-JumpOverlord/
+SIBGames/
 │
 ├── pythonProject/                    # Project root folder
 │   ├── Main.py                       # Main game file (entry point)
