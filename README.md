@@ -3,6 +3,8 @@
 
 Read this in other languages: [Russian/Русский](README.ru.md)
 
+Read full documentation (For now, only in Russian): [Documentation: Russian version](Documentation.ru.md)
+
 - **One playable level** (more coming soon)
 - **Dual language** - English and Russian
 
