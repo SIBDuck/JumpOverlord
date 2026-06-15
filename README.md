@@ -35,8 +35,8 @@ Read full documentation: [Documentation](Documentation.md)
 ## Installation
 1. Download `SIBGames.zip` 
 2. Unzip the file
-3. Open SIBGames/pythonProject/
-4. Run Main.exe (no Python installation required)
+3. Open `SIBGames/pythonProject/`
+4. Run `Main.exe` (no Python installation required)
 
 ## Requirements 
 - **OS:** Windows 10/11
@@ -72,11 +72,11 @@ SIBGames/
 │
 ├── .gitignore                        # Ignored files (build/, dist/, .idea/, etc.)
 │
-├── README.md                         # Project description (Russian)
-├── README.en.md                      # Project description (English)
+├── README.md                         # Project description (English)
+├── README.ru.md                      # Project description (Russian)
 │
-├── DOCUMENTATION.md                  # Full documentation (Russian)
-├── DOCUMENTATION.en.md               # Full documentation (English)
+├── DOCUMENTATION.md                  # Full documentation (English)
+├── DOCUMENTATION.ru.md               # Full documentation (Russian)
 │
 ├── LICENSE                           # MIT License
 ```
