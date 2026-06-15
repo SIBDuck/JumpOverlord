@@ -11,28 +11,28 @@
 0. [Introduction](#introduction)  
 1. [Section 1. Preparation for Prototype Development](#section-1-preparation-for-prototype-development)  
 
-   1.1 [1.1 Choosing a Programming Language](#11-choosing-a-programming-language)  
+   [1.1 Choosing a Programming Language](#11-choosing-a-programming-language)  
 
-   1.2 [1.2 Choosing a Development Environment](#12-choosing-a-development-environment)  
+   [1.2 Choosing a Development Environment](#12-choosing-a-development-environment)  
 
-   1.3 [1.3 Choosing a Game Development Library](#13-choosing-a-game-development-library) 
+   [1.3 Choosing a Game Development Library](#13-choosing-a-game-development-library) 
 
-   1.4 [1.4 Creating a Model of the Future Game](#14-creating-a-model-of-the-future-game)  
+   [1.4 Creating a Model of the Future Game](#14-creating-a-model-of-the-future-game)  
 
-   1.5 [1.5 Analysis of Similar Games and Planned Prototype Features](#15-analysis-of-similar-games-and-planned-prototype-features)  
+   [1.5 Analysis of Similar Games and Planned Prototype Features](#15-analysis-of-similar-games-and-planned-prototype-features)  
 2. [Section 2. Prototype Implementation](#section-2-prototype-implementation)  
 
-   2.1 [2.1 Project Architecture and Main Menu](#21-project-architecture-and-main-menu) 
+   [2.1 Project Architecture and Main Menu](#21-project-architecture-and-main-menu) 
 
-   2.2 [2.2 Project Architecture and Level Loading](#22-project-architecture-and-level-loading)
+   [2.2 Project Architecture and Level Loading](#22-project-architecture-and-level-loading)
 
-   2.3 [2.3 Project Architecture and Player Physics / Camera Development](#23-project-architecture-and-player-physics--camera-development)  
+   [2.3 Project Architecture and Player Physics / Camera Development](#23-project-architecture-and-player-physics--camera-development)  
 
-     2.3.1 [2.3.1 Player Physics](#231-player-physics)  
+     [2.3.1 Player Physics](#231-player-physics)  
 
-     2.3.2 [2.3.2 Camera Mechanics](#232-camera-mechanics)  
+     [2.3.2 Camera Mechanics](#232-camera-mechanics)  
 
-   2.4 [2.4 Project Architecture and Rendering All Objects](#24-project-architecture-and-rendering-all-objects)  
+   [2.4 Project Architecture and Rendering All Objects](#24-project-architecture-and-rendering-all-objects)  
 3. [Testing and Evaluation of Prototype Readiness](#testing-and-evaluation-of-prototype-readiness)  
 4. [Conclusion](#conclusion)  
 5. [References](#references)  
