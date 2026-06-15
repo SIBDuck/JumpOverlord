@@ -50,7 +50,7 @@ def load_level(LEVEL_PATH):
         "closed_door": [],
         "money": [],
         "chest": [],
-        "FAK": [],
+        "FAK": [], # First aid kit
         "buttons": [],
         "portals": [],
         "start": [],
