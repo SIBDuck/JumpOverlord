@@ -85,7 +85,7 @@ _**Table 1. Comparative analysis of programming languages.**_
 | Versatility (Multipurpose)               | High (AI, games, data).                                                        | Low (focused on game development).                                                                     | Medium (difficult for non‑specialized tasks).                                                         |
 | Personal experience                      | Yes, quite extensive.                                                          | No.                                                                                                    | Only basic knowledge.                                                                                  |
 
-Thus, I chose Python, as it is a powerful tool for creating products in any field. It stands out for its simplicity, a huge supportive community, and my existing experience with it. This means I can not only implement game logic but also solve related tasks (such as data processing or creating simple tools), relying on a vast base of ready‑made solutions and advice from other developers. Moreover, I avoid spending time learning syntax, making Python the most suitable choice for my project.  
+Thus, I chose Python, as it is a powerful tool for creating products in any field. It stands out for its simplicity, a huge supportive community, and my existing experience with it. This means I can not only implement game logic but also solve related tasks (such as data processing or creating simple tools), relying on a vast base of ready‑made solutions and advice from other developers, making Python the most suitable choice for my project.  
 
 ## **1.2 Choosing a Development Environment**  
 
@@ -93,14 +93,14 @@ Writing code in a standard text editor is inconvenient and inefficient, as it la
 
 _**Table 2. Comparative analysis of development environments.**_  
 
-| Comparison criterion                     | PyCharm                                        | Visual Studio Code                            |
-| ---------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
-| Type of software                         | Full‑fledged IDE (Integrated Development Environment) | Lightweight code editor.                     |
-| Setup                                    | Works right after installation.                | Requires installing extensions for Python.    |
-| Code analysis                            | Deep built‑in intelligence (inspections).     | Depends on installed plugins.                 |
-| Memory usage                             | Heavy, consumes significant resources.        | Light, runs quickly on weaker PCs.            |
-| Git / virtual environment integration    | Professional‑grade, built‑in.                  | Moderate (game‑development oriented).         |
-| Personal experience                      | Yes, quite extensive.                          | Very limited.                                 |
+| Comparison criterion                     | PyCharm                                        | Visual Studio Code                           |
+| ---------------------------------------- | ---------------------------------------------- | -------------------------------------------- |
+| Type of software                         | Full‑fledged IDE (Integrated Development Environment) | Lightweight code editor.                    |
+| Setup                                    | Works right after installation.                | Requires installing extensions for Python.   |
+| Code analysis                            | Deep built‑in intelligence (inspections).     | Depends on installed plugins.                |
+| Memory usage                             | Heavy, consumes significant resources.        | Light, runs quickly on weaker PCs.           |
+| Git / virtual environment integration    | Professional‑grade, built‑in.                  | Moderate (Depends on installed plugins).         |
+| Personal experience                      | Yes, quite extensive.                          | Very limited.                                |
 
 Thus, PyCharm is not just a text editor but a professional environment that handles the main tasks and helps avoid many errors. Built‑in support for virtual environments prevents library conflicts. A convenient interface for project files and an integrated terminal create a unified workspace, allowing me to focus on the creative part — implementing game logic and prototype mechanics.  
 
