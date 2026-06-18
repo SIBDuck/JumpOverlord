@@ -175,12 +175,12 @@ To develop the core mechanics, a level loader is necessary. To implement it, a b
 
 To implement loading, a function was declared that opens the level file, reads it line by line, and adds each line to a list. Iterating through this list, we get the character index and add it to the corresponding list of objects of the same type. This is needed to determine the coordinates of each object, which are calculated using the formula:
 
-**X = (_j_ + 1) × 64,
-Y = (_i_ + 1) × 64.**
+- ```X = (_j_ + 1) × 64```,
+- ```Y = (_i_ + 1) × 64```.
 
 where:
-- `_j_` — character index in the array
-- `_i_` — row number containing the character
+- `j` — character index in the array
+- `i` — row number containing the character
 - `64` — constant, the side length of each square tile
 
 We add 1 so that objects are not pressed against the left edge, since numbering in Python starts from zero. As a result, the function returns the level data and the player's coordinates (calculated using the same formula as for level objects). The level loader implementation can be seen in [Appendix 2](#appendix-2-level-loader-implementation).
@@ -214,8 +214,8 @@ Now we need to implement a collision system. The player's current coordinates ar
 
 Now we need to correctly display and animate the player. First, the player's screen coordinates are calculated from the world coordinates using the formula:
 
-```X_screen = X_world - X_camera - X_width // 2```
-```Y_screen = Y_world - Y_camera - Y_offset```
+- ```X_screen = X_world - X_camera - X_width // 2```,
+- ```Y_screen = Y_world - Y_camera - Y_offset```.
 
 Where:
 - `X_screen`, `Y_screen` — player's screen coordinates,
@@ -230,8 +230,8 @@ Depending on the player's direction, the corresponding movement animation is pla
 
 To create the camera mechanics, the basic characteristics must be defined in the class constructor. It stores the camera coordinates and its width and height, which are set equal to the screen dimensions (**640×360**). To correctly display objects on the screen, a function was created that updates the camera coordinates using the formula:
 
-```X_camera = X_player - SCREEN_WIDTH // 2```
-```Y_camera = Y_player - SCREEN_HEIGHT // 2```
+- ```X_camera = X_player - SCREEN_WIDTH // 2```,
+- ```Y_camera = Y_player - SCREEN_HEIGHT // 2```.
 
 Where:
 - `X_camera`, `Y_camera` — camera coordinates,
