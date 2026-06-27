@@ -5,6 +5,8 @@ Read this in other languages: [Russian/Русский](README.ru.md)
 
 Read full documentation: [Documentation](Documentation.md)
 
+This is the educational repository. Check the main one: [main repository](https://github.com/SIBDuck/JumpOverlord-play/)
+
 - **One playable level** (more coming soon)
 - **Dual language** - English and Russian
 
