@@ -303,7 +303,11 @@ Thus, the developed prototype fully complies with the MVP methodology and confir
 # Links  
 
 - My GitHub: https://github.com/SIBDuck/  
-- My game JumpOverlord: https://github.com/SIBDuck/JumpOverlord/  
+- My game JumpOverlord: 
+    1. Active development branch:
+       https://github.com/SIBDuck/JumpOverlord-play/  
+    2. Educational repository: 
+       https://github.com/SIBDuck/JumpOverlord/ 
 
 # **Appendices**  
 
