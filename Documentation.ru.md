@@ -319,7 +319,11 @@ _**Таблица 4. Сравнительный анализ жанров игр
 # Ссылки  
   
 - Мой GitHub: https://github.com/SIBDuck/  
-- Моя игра JumpOverlord: https://github.com/SIBDuck/JumpOverlord/  
+- Моя игра JumpOverlord: 
+   1. Репозиторий активной разработки:
+      https://github.com/SIBDuck/JumpOverlord-play/
+   2. Образовательный репозиторий:
+      https://github.com/SIBDuck/JumpOverlord/
   
 # **Приложения**  
   
