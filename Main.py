@@ -1,3 +1,9 @@
+#Copyright (C) 2026 SIBDuck
+#Licensed under the MIT License.
+#See LICENSE file in the project root for full license details.
+
+
+
 # Constants are written in CapsLock
 import pygame
 import time
