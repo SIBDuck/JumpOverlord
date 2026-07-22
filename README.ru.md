@@ -26,13 +26,14 @@
 
 ## Геймплей - скриншоты и гифки
 
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
-![Screenshot 3](images/screenshot3.png)
-![Screenshot 4](images/screenshot4.png)
-![Screenshot 5](images/screenshot5.png)
-![Screenshot 6](images/screenshot6.png)
-![Gameplay GIF](images/game.gif)
+![Screenshot 1](screenshots_gifs/screenshot1.png)
+![Screenshot 2](screenshots_gifs/screenshot2.png)
+![Screenshot 3](screenshots_gifs/screenshot3.png)
+![Screenshot 4](screenshots_gifs/screenshot4.png)
+![Screenshot 5](screenshots_gifs/screenshot5.png)
+![Screenshot 6](screenshots_gifs/screenshot6.png)
+![Gameplay GIF1](screenshots_gifs/game.gif)
+![Gameplay GIF2](screenshots_gifs/game2.gif)
 
 ## Установка
 1. Скачайте файл `SIBGames.zip`
