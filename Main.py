@@ -197,9 +197,8 @@ class Player:
         if keys[pygame.K_a] or keys[pygame.K_d]:
             # Update animation timer and cycle through running frames (0 to 3)
             self.animation_timer += 1
-            if self.animation_timer >= 5:
-                self.animation_index = (
-                                               self.animation_index + 1) % 4
+            if self.animation_timer >= 8:
+                self.animation_index = (self.animation_index + 1) % 7
                 self.animation_timer = 0
 
         if not (keys[pygame.K_a] or keys[pygame.K_d]):
@@ -207,16 +206,11 @@ class Player:
 
         if is_jump:
             is_go = True
-            if self.direction == "right":
-                self.animation_index = 0
-            else:
-                self.animation_index = 3
+            self.animation_index = 2
         # Reset to idle animation frame
         if not is_go:
-            if self.direction == "right":
-                self.animation_index = 1
-            else:
-                self.animation_index = 2
+            self.animation_index = 0
+
 
         player_rect = self.get_rect()
         wall_collision = False
@@ -324,10 +318,10 @@ class Player:
         screen_y = self.y - camera_y - self.SPRITE_OFFSET_Y  # Calculate screen player Y coordinate
 
         if self.direction == "right":
-            current_frame = player_right[self.animation_index % len(player_right)]
+            current_frame = George_right[self.animation_index % len(George_right)]
         else:
-            current_frame = player_left[self.animation_index % len(player_left)]
-        surface.blit(current_frame, (screen_x, screen_y))
+            current_frame = George_left[self.animation_index % len(George_left)]
+        surface.blit(current_frame, (screen_x+self.HITBOX_OFFSET_X, screen_y))
 
         if Debug:
             rect = self.get_rect()
@@ -578,33 +572,29 @@ white.fill((255, 255, 255))
 white_hb = white.get_rect()
 white_hb.center = (640 // 2, 360 // 2)
 # Load textures
-player_texture = pygame.image.load("images/player.png").convert_alpha()  # игрок
-enemy = pygame.image.load("images/enemy.png").convert_alpha()  # враг
-wall = pygame.image.load("images/brickwall.jpg").convert_alpha()  # стена
+player_texture = pygame.image.load("images/player.png").convert_alpha()
+wall = pygame.image.load("images/brickwall.jpg").convert_alpha()
 every_platform = pygame.image.load(
     "images/platform.jpg").convert_alpha()
 spikes = pygame.image.load("images/spikes.png").convert_alpha()
-money = pygame.image.load("images/money.png")
-door = pygame.image.load("images/door.png")
-cp0 = pygame.image.load("images/checkpoint0.png").convert_alpha()
-cp1 = pygame.image.load("images/checkpoint1.png").convert_alpha()
-start_end = pygame.image.load("images/startend.png").convert_alpha()
-chest = pygame.image.load("images/chest.png").convert_alpha()
-FAK = pygame.image.load("images/FAK.png").convert_alpha()  # First aid kit
+money = pygame.image.load("images/coin.png")
 button = pygame.image.load("images/button0.png").convert_alpha()
 
 # Load player textures
-player_right = [
-    pygame.image.load('pright/sprite_13.png').convert_alpha(),
-    pygame.image.load('pright/sprite_14.png').convert_alpha(),
-    pygame.image.load('pright/sprite_15.png').convert_alpha(),
-    pygame.image.load('pright/sprite_16.png').convert_alpha()
+George_right = [
+    pygame.image.load("George/right/1.png"),
+    pygame.image.load("George/right/2.png"),
+    pygame.image.load("George/right/3.png"),
+    pygame.image.load("George/right/4.png"),
+    pygame.image.load("George/right/5.png")
 ]
-player_left = [
-    pygame.image.load('pleft/sprite_9.png').convert_alpha(),
-    pygame.image.load('pleft/sprite_10.png').convert_alpha(),
-    pygame.image.load('pleft/sprite_11.png').convert_alpha(),
-    pygame.image.load('pleft/sprite_12.png').convert_alpha()
+
+George_left = [
+    pygame.image.load("George/left/1.png"),
+    pygame.image.load("George/left/2.png"),
+    pygame.image.load("George/left/3.png"),
+    pygame.image.load("George/left/4.png"),
+    pygame.image.load("George/left/5.png")
 ]
 # Create simple figures
 Start_button = pygame.rect.Rect((270, 130, 100, 50))  # Start button
