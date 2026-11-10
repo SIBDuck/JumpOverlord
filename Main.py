@@ -177,8 +177,7 @@ class Player:
     # Get player's hitbox:
     def get_rect(self):
         return pygame.Rect(self.x - self.HITBOX_OFFSET_X, self.y, self.width, self.height)
-        # We subtract "self.HITBOX_OFFSET_X" because of the unknown mistake
-        # TODO: correct the upper mistake
+        # Subtraction because of aligning physical hitbox relative to the visual sprite dimension
 
     def move(self, keys, level_data):
         global gameplay, death, is_jump, is_go, coin, complete
